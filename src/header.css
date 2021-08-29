@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1%;
+    background-color: #7F7979;
+    color: rgb#941C2F;
+    border: #323031 solid .25rem;
+    width: 6rem;
+    border-radius: 15%;
+    font-size: 1.2rem;
+
+}
+a.active{
+    text-decoration: none;
+    color: #323031;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+header{
+    height: 4.75em;
+    width: 100%;
+    background-color: #5F5B6B;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
